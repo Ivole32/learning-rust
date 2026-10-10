@@ -1,0 +1,13 @@
+# Answer keys and rubrics: tutor only, never public
+.grading/
+
+# Rust build output
+target/
+
+# Secrets and local env
+.env
+*.env
+
+# Large sample logs (generate them locally; don't commit gigabytes)
+*.log
+!samples/*.log
