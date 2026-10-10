@@ -1,0 +1,33 @@
+# Rust
+target/
+*.rs.bk
+*.pdb
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Coverage and profiling
+/coverage/
+*.profraw
+*.profdata
+
+# Temporary files
+*.tmp
+*.temp
